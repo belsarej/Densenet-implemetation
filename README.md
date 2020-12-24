@@ -1,14 +1,32 @@
 # Densenet-implemetation
-Densenet  implementation
-A PyTorch Implementation for Densely Connected Convolutional Networks (DenseNets)
+We used CIFAR-10 dataset for our experiments with DenseNet Architecture.
+
+Hyper Parameters:
+
+Batch Size - 32,64,128,
+
+Epoch - 20,30,40,50,70
+
+Optimizer - ADAM , SGD (with & without momentum and weight decay)
+
+Transformation - Rotation_Range = 30 , Horizontal Flip , Normalization by mean and Std Dev
+
+Results
+
+Accuracy  : 90.14
+
+
+DenseNet-BC(k=12,L=100)
+
+The No of Parameters in this Model is around 0.8 M which makes it easy to train and requires lesser computational power
 
 This repo consists of:
 
-Different Data Augmentation we used in our experiments in data augmentation.ipynb
-DenseNet Excel file has the Expermentitonal Results
 
-We have build two different models one DenseNet-BC(k=12,L=100) which is in Final Densenet implemetation 
+Different Data Augmentation we used in our experiments in data augmentation.ipynb 
 
-Another in densenet 121 with  1 Millon parameter in Densenet(1) file
+DenseNet Exp Excel file has the Expermentitonal Results
 
-Data augmenation file contain different augmentation techniques 
+Final_DenseNet_Copy.ipynb is the final model
+
+check our densenet deployment here https://github.com/belsarej/DenseNet_deployment
