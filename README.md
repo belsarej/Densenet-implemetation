@@ -23,9 +23,9 @@ The No of Parameters in this Model is around 0.8 M which makes it easy to train 
 This repo consists of:
 
 
-Different Data Augmentation we used in our experiments in data augmentation.ipynb 
+Different Data Augmentation we used in our experiments in Densenet_data_augmentation.ipynb 
 
-DenseNet Exp Excel file has the Expermentitonal Results
+DenseNet.xlsx Excel file has the Expermentitonal Results
 
 Final_DenseNet_implemntation.ipynb is the final model
 
